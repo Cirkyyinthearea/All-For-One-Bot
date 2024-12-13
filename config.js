@@ -11,13 +11,13 @@ module.exports = {
         maske: "🎭",
     },
     webhook: {
-        url: process.env.webhook_url || "",
-        username: process.env.webhook_username || "",
+        url: process.env.webhook_url || "https://discord.com/api/webhooks/1316970844546928670/V09AIiazpMgG9KLrhBg8V73d9RokOMulSLjRn26vitoW0AbARZRSA-wR6AxnLSodajPi",
+        username: process.env.webhook_username || "Spidey Bot",
         avatar: process.env.webhook_avatar || ""
     },
     discord: {
         token: process.env.token || "",
-        prefix: process.env.prefix || "",
+        prefix: process.env.prefix || "+",
         invite: "https://discord.com/oauth2/authorize?client_id={clientId}&permissions=137775017040&scope=bot%20applications.commands",
         server_support: process.env.server_support || "https://discord.gg/P4XxUmebDa",
         support_server_id: process.env.support_server_id || "",
