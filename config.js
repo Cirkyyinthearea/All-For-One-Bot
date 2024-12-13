@@ -25,7 +25,7 @@ module.exports = {
         report_channel_id: process.env.report_channel_id || ""
     },
     activity: [
-        "Build by Sobhan-SRZA (mr.sinre)"
+        "Build by ck4yy"
     ],
     type: [
         "WATCHING",
@@ -37,10 +37,10 @@ module.exports = {
         "online"
     ],
     owners: [
-        "865630940361785345"
+        "722584544175194154"
     ],
     vip_role: [
-        "1204454699374346290"
+        "1308454059144904767"
     ],
     colors: {
         none: "#2F3136",
